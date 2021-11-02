@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AndroidLabs3_5</string>
+    <string name="fragment_1">Fragment1</string>
+    <string name="to_second">ToSecondFragment</string>
+    <string name="to_about">toAbout</string>
+    <string name="fragment_2">Fragment2</string>
+    <string name="to_first">toFirstFragment</string>
+    <string name="to_third">toThirdFragment</string>
+    <string name="fragment_3">Fragment3</string>
+    <string name="about">ActivityAbout</string>
+    <string name="back">Back</string>
+</resources>
