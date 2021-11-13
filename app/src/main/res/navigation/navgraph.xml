@@ -44,4 +44,14 @@
             app:popUpTo="@id/fragment1"
             app:popUpToInclusive="true" />
     </fragment>
+
+    <action android:id="@+id/global_about"
+        app:destination="@+id/activityAbout" />
+
+    <activity
+        android:id="@+id/activityAbout"
+        android:name="com.poly.androidlabs3_5.ActivityAbout"
+        android:label="activity_about"
+        tools:layout="@layout/activity_about"
+        />
 </navigation>

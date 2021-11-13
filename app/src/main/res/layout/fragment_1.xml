@@ -6,9 +6,11 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#673AB7"
-        tools:context=".Fragment1">
+        tools:context=".Fragment1"
+        android:id="@+id/fragment1">
 
         <androidx.drawerlayout.widget.DrawerLayout
+            android:id="@+id/drawer_layout"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
@@ -24,12 +26,12 @@
                     android:textColor="@color/white"
                     android:textSize="20sp"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintBottom_toTopOf="@id/btnToSecond"
+                    app:layout_constraintBottom_toTopOf="@id/bnToSecond"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintEnd_toEndOf="parent" />
 
                 <Button
-                    android:id="@+id/btnToSecond"
+                    android:id="@+id/bnToSecond"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/to_second"
@@ -52,11 +54,11 @@
                     android:orientation="vertical">
 
                     <Button
-                        android:id="@+id/btnToAbout"
+                        android:id="@+id/bnToAbout"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/to_about"
-                        android:layout_gravity="center" />
+                        android:layout_gravity="center"
+                        android:text="@string/to_about" />
                 </LinearLayout>
             </com.google.android.material.navigation.NavigationView>
         </androidx.drawerlayout.widget.DrawerLayout>
