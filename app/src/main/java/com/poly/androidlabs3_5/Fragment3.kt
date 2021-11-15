@@ -25,12 +25,6 @@ class Fragment3 : Fragment() {
             navController.navigate(R.id.action_fragment3_to_fragment2)
         }
 
-        binding.bnToAbout.setOnClickListener {
-            (activity as MainActivity).goToAbout()
-        }
-
         return binding.root
     }
-
-
 }
