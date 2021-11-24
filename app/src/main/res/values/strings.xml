@@ -9,4 +9,6 @@
     <string name="fragment_3">Fragment3</string>
     <string name="about">ActivityAbout</string>
     <string name="back">Back</string>
+    <string name="navigation_drawer_open">drawerOpen</string>
+    <string name="navigation_drawer_close">drawerClose</string>
 </resources>
